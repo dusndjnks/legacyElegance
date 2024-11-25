@@ -22,7 +22,7 @@ const Home = () => {
   <Link to="/product" className='bg-lime border border-4 px-8  py-3  text-2xl rounded-lg '>Go To Store</Link>
 </div>
 
-      <div className='h-auto w-scree flex justify-between bg-lime items-center'>
+      <div className='h-auto w-screen flex justify-between bg-lime items-center'>
         <div className=' py-10 sm:px-3 lg:px-14'>
           <h1 className='lg:text-6xl  text-3xl font-serif text-center  '>OLD  MONEY EMPORIUM</h1>
           <h2 className='text-center w-auto px-'>"Our dress store offers timeless elegance and modern refinement for the discerning gentleman."</h2>
