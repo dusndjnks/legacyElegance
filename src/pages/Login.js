@@ -10,13 +10,13 @@ const Login = () => {
 <hr className="border-t-4 bg-" />
 </div>
     <div className='bg-lime'>
-      <div className='flex justify-center py-3  '>
-  <div className="flex flex-col max-w-md py-3 rounded-md sm:p-10 dark:bg-black dark:text-gray-800 border border-4">
+      <div className='flex justify-center py-5  '>
+  <div className="flex flex-col max-w-md py-5 px-8 rounded-md sm:p-10 dark:bg-black dark:text-gray-800 border border-4">
   <div className="mb-8 text-center">
       <h1 className="my-3 text-4xl font-bold text-white">Login</h1>
       <p className="text-sm dark:text-gray-600 text-white">Login to access your account</p>
   </div>
-  <form noValidate="" action="" className="space-y-12">
+  <form noValidate="" action="" className="space-y-8">
       <div className="space-y-4">
           <div>
               <label htmlFor="email" className="block mb-2 text-sm text-white">Email address</label>
@@ -32,7 +32,7 @@ const Login = () => {
       </div>
       <div className="space-y-2">
           <div>
-              <button type="button" className="w-full px-8 py-3 font-semibold rounded-md dark:bg-violet-600 dark:text-gray-50 text-white">Login</button>
+              <button type="button" className="w-full px-8  font-semibold rounded-md dark:bg-violet-600 dark:text-gray-50 text-white">Login</button>
           </div>
           <p className="px-6 text-sm text-center dark:text-gray-600 text-white">Don't have an account yet?
               <Link to="/signup"  rel="noopener noreferrer"  className="hover:underline dark:text-violet-600 text-white">Sign up</Link>.
